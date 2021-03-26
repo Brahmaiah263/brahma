@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	let n=1230;
+	let count=0;
+	while(n>0)
+	{
+		let r=n%10;
+		n/=10;
+		count++;
+	}
+	if(count==3)
+	{
+		console.log(n+'---->number is 3 digit');
+	}
+	else
+	{
+		console.log(n+'---->number is not 3 digit');
+	}
+	
+</script>
+</body>
+</html>
