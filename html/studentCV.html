@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RESUME FORM</title>
+<style>
+    body{
+        text-transform: capitalize;
+        margin: 0;
+    }
+    #home{
+        margin-left: 25px;
+        width: 160px;
+        text-align: center;
+        margin-top: -6px;
+    }
+    header{
+        padding: 10px;
+        background:linear-gradient(45deg,yellow,green,orange);
+    }
+    h2{
+        text-align: center;
+        margin-top: -45px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        float: right;
+        
+    }
+    #body{
+        display: flex;
+       
+    }
+     .nav {
+background: linear-gradient(45deg,yellow,orange,blue);
+
+        width: 250px;    
+        margin-top: -2px;    
+        line-height: 60px;
+        height: 100vh;
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+       
+       
+    }
+    ul li a{
+        text-decoration: none;
+       border: 2px solid black;
+       padding: 10px;
+       border-radius: 10px;
+       box-shadow: 0 0 10px 0 white;      
+    }
+    a:hover{
+        background-color: yellow;
+        color: white;
+    }
+
+    section{
+        background-color: #537895;
+        background-image: linear-gradient(315deg, #537895 0%, #09203f 34%);
+    }
+    article{
+        margin-left: 20px;
+        color: #b8c6db;
+    }
+    footer{
+        width: 100%;
+        background-color: #537895;
+        background-image: linear-gradient(45deg,yellow,green,orange);
+        text-align: center;
+        margin-top: -19px;
+        padding: 10px;
+        height: 60px;
+        position: relative;
+    }
+    h3{
+        margin: 5px;
+        color: #f1dfd1;
+    }
+    nav
+		{
+			background: linear-gradient(45deg,grey,yellow,blue);
+			color: white;
+			padding: 5px;
+			
+		}
+		nav a
+		{
+			text-decoration: none;
+			padding: 80px;
+		}
+</style>
+<body>
+    <header>        
+           <p id="home"> address:  <br>          
+            Kondareddi palli(V),Tarlupadu(M),Prakasam(D)<br>
+            andhar pradesh,<br>
+            india. <br></p>
+          <h2><span>NAGAM BRAHMAIAH</span><span><img src="C:\Users\Lenovo\Pictures\2019-03\BRAHMAM.jpg" width="50px" height="50px"></span></h2>      
+    </header>
+    <nav>
+<div align="center">
+<a href="#home">Home</a>
+<a href="#Contact">Contact</a>
+<a href="About">About</a>
+<a href="#Email">Email</a>
+</div>
+</nav>
+    <div id="body">
+        <aside>
+            <ul class="nav">
+                <li><a href="#car">Carrier</a></li>
+                <li><a href="#qul">Qulification</a></li>
+                <li><a href="#ext">Extracurricular Activites</a></li>
+                <li><a href="#hob">Hobbies</a></li>
+                <li><a href="#str">Strength</a></li>
+                <li><a href="#per">Personal</a></li>
+            </ul>
+        </aside>
+        <section>
+            <article>
+                <h3 id="car">Carrier Object:</h3>
+             <p>To obtain a creative and challenging position in an organization that gives me an opportunity for self improvement and leadership,while contributing to the symbolic growth of the organization with my technical, innovative and logical skills.</p>
+            </article>
+            <article>
+                <h3 id="qul">Qulification</h3>
+                <table border="1px">
+                    <tr>
+                    <th>Course</th>
+                    <th>Institution</th>
+                    <th>Board/University</th>
+                    <th>Year Of Completion</th>
+                    <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>B.SC(MSCS)</td>
+                        <td>Nalanda Degree College</td>
+                        <td>Vijayavada</td>
+                        <td>2017</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>Sadhana Junior College</td>
+                        <td>board of intermediate education</td>
+                        <td>2014</td>
+                        <td>73.6</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Z.P.H school</td>
+                        <td>board of secondary education</td>
+                        <td>2012</td>
+                        <td>75</td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h3 id="ext">Extracurricular activities:</h3>
+                <ul type="circle">
+                    <li>participated in culutral activities conducted in our college</li>
+                    <li>participated in NCC</li>
+                </ul>
+            </article>
+            <article>
+                <h3 id="hob">hobbies</h3>
+                <ol>
+                    <li>Listening Music</li>
+                    <li>Playing Cricket</li>
+                </ol>
+            </article>
+            <article>
+                <h3 id="str">strength:</h3>
+                <ul>
+                    <li>leadership qualities</li>
+                    <li>time management</li>
+                    <li>learning agility</li>
+                </ul>
+            </article>
+            <article>
+                <h3 id="per">personal details:</h3>
+                <form action="">
+                    <table>
+                       <tr>
+                           <td> <label for="">Date Of Birth:</label></td>
+                           <td><input type="date"></td>
+                       </tr>
+                       <tr>
+                           <td> <label for="">Father Name:</label></td>
+                           <td> <input type="text" placeholder="N.V.NARAYANA"></td>
+                       </tr>
+                       <tr>
+                           <td><label for="">Nationality:</label></td>
+                            <td><select name="" id="">
+                                <option value="">--------select-----</option>
+                                <option value="">indian</option>
+                            </select></td>
+                       </tr>
+                      <tr>
+                          <td>
+                            <label for="">languages known</label></td>
+                            <td><input type="checkbox" name="ra">English
+                            <input type="checkbox">Telugu
+                            <input type="checkbox">Hindi
+                          </td>
+                      </tr>
+                    </table>
+                </form>
+            </article>          
+        </section>        
+    </div>
+    <div id="foot">
+        <footer>
+            <h3>  copyright &copy;2020<br>develop by NAGAM BRAHMAIAH</h3>
+        </footer>
+    </div>
+</body>
+</html>
