@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EXAMPLE ANIMATION</title>
+	<style>
+		body
+		{
+			background-color: black;
+		}
+		div
+		{
+			position: relative;
+			top: 150px;
+			left: 200px;
+		}
+		span
+		{
+			padding: 20px;
+			display: inline-block;
+			font-size: 30px;
+			font-family: 'comic sans ms';
+			color: white;
+			box-shadow: 0 15px 15px white;
+			border-radius: 5px;
+			margin: 10px;
+			animation: india 1s infinite alternate;
+		}
+		@keyframes india
+		{
+			0%,100%
+			{
+				transform: translateY(-50px);
+			}
+			50%
+			{
+				transform: translateY(50px);
+			}
+		}
+		span:nth-child(1)
+		{
+			background: linear-gradient(45deg,red,black);
+			animation-delay: 0.1s;
+		}
+		span:nth-child(2)
+		{
+			background: linear-gradient(45deg,blue,black);
+			animation-delay: 0.2s;
+		}
+		span:nth-child(3)
+		{
+			background: linear-gradient(45deg,orange,black);
+			animation-delay: 0.3s;
+		}
+		span:nth-child(4)
+		{
+			background: linear-gradient(45deg,green,black);
+			animation-delay: 0.4s;
+		}
+		span:nth-child(5)
+		{
+			background: linear-gradient(45deg,cyan,black);
+			animation-delay: 0.5s;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<span>I</span>
+	<span>N</span>
+	<span>D</span>
+	<span>I</span>
+	<span>A</span>
+</div>
+</body>
+</html>
